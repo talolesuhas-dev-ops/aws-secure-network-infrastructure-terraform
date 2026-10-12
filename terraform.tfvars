@@ -1,0 +1,11 @@
+vpc_cidr        = "10.0.0.0/16"
+vpc_tags1       = "devops"
+pub_cidr        = "10.0.1.0/24"
+public_tags2   = "public_subnet"
+private_cidr    = "10.0.10.0/24"
+private_tags3  = "private_subnet"
+igw_tags4       = "igw-133"
+ami = "ami-03695d52f0d883f65"
+instance_type  = "t3.micro"
+api_termination = false
+key = "something"
